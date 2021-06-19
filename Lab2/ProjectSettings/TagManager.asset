@@ -6,19 +6,22 @@ TagManager:
   tags:
   - Ground
   - Enemy
+  - Obstacles
+  - Spawned
+  - QuestionBox
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - QuestionBox
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Spawned
+  - Obstacles
+  - Player
+  - Ground
+  - Background
+  - PostProcessing
   - 
   - 
   - 

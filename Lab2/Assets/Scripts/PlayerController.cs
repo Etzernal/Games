@@ -6,11 +6,16 @@ using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
+
+    private Animator marioAnimator;
+    private AudioSource marioAudioSource;
+
+
     public float speed;
     private Rigidbody2D marioBody;
     public float maxSpeed = 10;
     private bool onGroundState = true;
-    public float upSpeed = 10;
+    public float upSpeed = 15;
     private SpriteRenderer marioSprite;
     private bool faceRightState = true;
 
@@ -27,21 +32,31 @@ public class PlayerController : MonoBehaviour
         Application.targetFrameRate = 30;
         marioBody = GetComponent<Rigidbody2D>();
         marioSprite = GetComponent<SpriteRenderer>();
+        marioAnimator = GetComponent<Animator>();
+        marioAudioSource = GetComponent<AudioSource>();
+
     }
-    
+
     void Update()
     {
+        marioAnimator.SetFloat("xSpeed", Mathf.Abs(marioBody.velocity.x));
+
         // toggle state
         if (Input.GetKeyDown("a") && faceRightState)
         {
             faceRightState = false;
             marioSprite.flipX = true;
+            if (Mathf.Abs(marioBody.velocity.x) > 1.0)
+                marioAnimator.SetTrigger("onSkid");
+
         }
 
         if (Input.GetKeyDown("d") && !faceRightState)
         {
             faceRightState = true;
             marioSprite.flipX = false;
+            if (Mathf.Abs(marioBody.velocity.x) > 1.0)
+                marioAnimator.SetTrigger("onSkid");
         }
 
         
@@ -60,6 +75,7 @@ public class PlayerController : MonoBehaviour
         {
             marioBody.AddForce(Vector2.up * upSpeed, ForceMode2D.Impulse);
             onGroundState = false;
+            marioAnimator.SetBool("onGround", onGroundState);
             countScoreState = true; //check if Gomba is underneath
         }
 
@@ -94,9 +110,16 @@ public class PlayerController : MonoBehaviour
         if (col.gameObject.CompareTag("Ground"))
         {
             onGroundState = true; // back on ground
+            marioAnimator.SetBool("onGround", onGroundState );
             countScoreState = false; // reset score state
             scoreText.text = "Score: " + score.ToString();
         };
+
+        if (col.gameObject.CompareTag("Obstacles") && Mathf.Abs(marioBody.velocity.y) < 0.01f)
+        {
+            onGroundState = true; // back on ground
+            marioAnimator.SetBool("onGround", onGroundState);
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -114,5 +137,9 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    void PlayJumpSound()
+    {
+        marioAudioSource.PlayOneShot(marioAudioSource.clip);
+    }
 
 }
