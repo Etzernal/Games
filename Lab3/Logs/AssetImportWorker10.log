@@ -1,0 +1,687 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1083; Version 2009; 64bit' Language: 'en' Physical Memory: 16238 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity\2021.1.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker10
+-projectPath
+D:/UnityGames/Games/Lab3
+-logFile
+Logs/AssetImportWorker10.log
+-srvPort
+65325
+Successfully changed project path to: D:/UnityGames/Games/Lab3
+D:/UnityGames/Games/Lab3
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 145.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.7f1 (d91830b65d9b)
+[Subsystems] Discovering subsystems at path D:/Unity/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityGames/Games/Lab3/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   NVIDIA
+    VRAM:     4018 MB
+    Driver:   27.21.14.6230
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'D:/Unity/2021.1.7f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2021.1.7f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: D:/Unity/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity/2021.1.7f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.002205 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 148.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.164 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002926 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 150.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.556 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4550 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 268.3 MB.
+System memory in use after: 268.4 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 5028.
+Total: 3.623300 ms (FindLiveObjects: 0.397200 ms CreateObjectMapping: 0.296800 ms MarkObjects: 2.797100 ms  DeleteObjects: 0.130900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/ParallaxScroll.cs
+  artifactKey: Guid(0a763cc5b1c82f744b823e8c2d717157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ParallaxScroll.cs using Guid(0a763cc5b1c82f744b823e8c2d717157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f36cb4fe545c192e20c154e1ea7a6d') in 0.061567 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.044039 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.345 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4435 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 261.0 MB.
+System memory in use after: 261.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5032.
+Total: 3.939200 ms (FindLiveObjects: 0.384500 ms CreateObjectMapping: 0.264100 ms MarkObjects: 3.170300 ms  DeleteObjects: 0.118300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002349 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.245 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4435 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 261.0 MB.
+System memory in use after: 261.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5036.
+Total: 4.312100 ms (FindLiveObjects: 0.475800 ms CreateObjectMapping: 0.465900 ms MarkObjects: 3.243500 ms  DeleteObjects: 0.125600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004897 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.678 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4435 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 261.1 MB.
+System memory in use after: 261.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5040.
+Total: 8.931800 ms (FindLiveObjects: 1.459900 ms CreateObjectMapping: 0.851600 ms MarkObjects: 6.406200 ms  DeleteObjects: 0.211500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010040 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.127 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4435 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 261.1 MB.
+System memory in use after: 261.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5044.
+Total: 3.438400 ms (FindLiveObjects: 0.370500 ms CreateObjectMapping: 0.223900 ms MarkObjects: 2.658200 ms  DeleteObjects: 0.184700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002542 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.071 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4435 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 261.1 MB.
+System memory in use after: 261.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5048.
+Total: 3.982700 ms (FindLiveObjects: 0.544800 ms CreateObjectMapping: 0.243800 ms MarkObjects: 3.081800 ms  DeleteObjects: 0.111000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002177 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.015 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4435 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 261.1 MB.
+System memory in use after: 261.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5052.
+Total: 3.756200 ms (FindLiveObjects: 0.497800 ms CreateObjectMapping: 0.283000 ms MarkObjects: 2.852800 ms  DeleteObjects: 0.121200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002217 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.946 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4435 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 261.2 MB.
+System memory in use after: 261.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5056.
+Total: 3.297500 ms (FindLiveObjects: 0.436200 ms CreateObjectMapping: 0.257200 ms MarkObjects: 2.497000 ms  DeleteObjects: 0.106400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004727 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.962 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4435 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 261.2 MB.
+System memory in use after: 261.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5060.
+Total: 4.384500 ms (FindLiveObjects: 0.366700 ms CreateObjectMapping: 0.245900 ms MarkObjects: 3.622000 ms  DeleteObjects: 0.148200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 920.034097 seconds.
+  path: Assets/Sprite/mushroom.png
+  artifactKey: Guid(4ca464bb021b97e43bddbb68aa9342b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/mushroom.png using Guid(4ca464bb021b97e43bddbb68aa9342b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88fb5494c60675134a2b79b3b0a1c11b') in 1.254286 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002204 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.110 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4436 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 265.8 MB.
+System memory in use after: 265.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5085.
+Total: 4.273700 ms (FindLiveObjects: 0.419500 ms CreateObjectMapping: 0.329400 ms MarkObjects: 3.293500 ms  DeleteObjects: 0.229800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002306 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.976 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4435 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 265.8 MB.
+System memory in use after: 265.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5089.
+Total: 3.539900 ms (FindLiveObjects: 0.418900 ms CreateObjectMapping: 0.315100 ms MarkObjects: 2.654200 ms  DeleteObjects: 0.150600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003472 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.444 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4435 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 265.8 MB.
+System memory in use after: 265.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5093.
+Total: 5.290400 ms (FindLiveObjects: 1.014800 ms CreateObjectMapping: 0.386100 ms MarkObjects: 3.762600 ms  DeleteObjects: 0.125500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 470.324150 seconds.
+  path: Assets/Shader/Mushroom.shadergraph
+  artifactKey: Guid(02b67fbdb70b1e94ea8b210873a8ec85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Mushroom.shadergraph using Guid(02b67fbdb70b1e94ea8b210873a8ec85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95921e7319bff81723a0e81a697eda4c') in 0.046086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 273.955303 seconds.
+  path: Assets/Shader/Mushroom.shadergraph
+  artifactKey: Guid(02b67fbdb70b1e94ea8b210873a8ec85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Mushroom.shadergraph using Guid(02b67fbdb70b1e94ea8b210873a8ec85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732e1db1abfabe840d3362b3c9eac0f9') in 0.006098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.657837 seconds.
+  path: Assets/Shader/Mushroomglowgraph.shadergraph
+  artifactKey: Guid(02b67fbdb70b1e94ea8b210873a8ec85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Mushroomglowgraph.shadergraph using Guid(02b67fbdb70b1e94ea8b210873a8ec85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14910709d2e2eb67cda34ef70cea41ec') in 0.014261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 288.416848 seconds.
+  path: Assets/Shader/Mush Glow Graph.mat
+  artifactKey: Guid(7b82789adc9c2f1499f40f58eeebd60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Mush Glow Graph.mat using Guid(7b82789adc9c2f1499f40f58eeebd60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e5174f2675f049636aa9a69ba1cd73') in 0.472377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.749958 seconds.
+  path: Assets/Sprite/mushroom.png
+  artifactKey: Guid(4ca464bb021b97e43bddbb68aa9342b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/mushroom.png using Guid(4ca464bb021b97e43bddbb68aa9342b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5df3cf8d8c7f33b0c43ed8362bc2890') in 0.031117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/Sprite/mushroom_edited.png
+  artifactKey: Guid(37860f284dac33e478d0f85df70b1aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/mushroom_edited.png using Guid(37860f284dac33e478d0f85df70b1aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a6794afed3ba7c755da69563fd0178') in 0.016182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.584777 seconds.
+  path: Assets/Shader/Mush Glow Graph.mat
+  artifactKey: Guid(7b82789adc9c2f1499f40f58eeebd60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Mush Glow Graph.mat using Guid(7b82789adc9c2f1499f40f58eeebd60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be52510e43e36fdef51372108fbaf08c') in 0.013054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 100.065637 seconds.
+  path: Assets/Shader/Mushroom Glow Graph.mat
+  artifactKey: Guid(53eb2d4ddf4fcf8479832928534708e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Mushroom Glow Graph.mat using Guid(53eb2d4ddf4fcf8479832928534708e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be5cac9e1f6a3c9eaf65de03f51d2ca') in 0.019048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 97.978797 seconds.
+  path: Assets/Sprite/mushroom_edited.png
+  artifactKey: Guid(37860f284dac33e478d0f85df70b1aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/mushroom_edited.png using Guid(37860f284dac33e478d0f85df70b1aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b04b9d073a1a0c357e5a53689fa50ad') in 0.014078 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.047093 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.892 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4437 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 269.7 MB.
+System memory in use after: 269.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5218.
+Total: 17.140200 ms (FindLiveObjects: 1.466400 ms CreateObjectMapping: 1.645400 ms MarkObjects: 13.587400 ms  DeleteObjects: 0.436100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 240.396423 seconds.
+  path: Assets/Shader/Mushroomglowgraph.shadergraph
+  artifactKey: Guid(02b67fbdb70b1e94ea8b210873a8ec85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Mushroomglowgraph.shadergraph using Guid(02b67fbdb70b1e94ea8b210873a8ec85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3665128e7a7e2d92f09ac086d12aeef') in 0.041011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.169405 seconds.
+  path: Assets/Shader/glowGraph.shadergraph
+  artifactKey: Guid(3ca1c57f3c4bc614db48760befe2c358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/glowGraph.shadergraph using Guid(3ca1c57f3c4bc614db48760befe2c358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f91b72850f7c66aebe5e2dd0ef132d') in 0.005581 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006874 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 4.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.631 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 4.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4435 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 269.5 MB.
+System memory in use after: 269.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5222.
+Total: 19.831000 ms (FindLiveObjects: 3.579000 ms CreateObjectMapping: 3.229900 ms MarkObjects: 12.457500 ms  DeleteObjects: 0.558900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 229.262896 seconds.
+  path: Assets/Shader/Mushroomglowgraph.shadergraph
+  artifactKey: Guid(02b67fbdb70b1e94ea8b210873a8ec85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Mushroomglowgraph.shadergraph using Guid(02b67fbdb70b1e94ea8b210873a8ec85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79127800fa109abd1a891a7d4eaf245') in 0.046580 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005160 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.941 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4435 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 269.5 MB.
+System memory in use after: 269.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5226.
+Total: 7.521000 ms (FindLiveObjects: 0.827100 ms CreateObjectMapping: 0.656000 ms MarkObjects: 5.891800 ms  DeleteObjects: 0.143800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.535111 seconds.
+  path: Assets/Shader/Mushroom Shader.mat
+  artifactKey: Guid(f912cbae5732ad14387daa4701190a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Mushroom Shader.mat using Guid(f912cbae5732ad14387daa4701190a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2da40f6641bb387ec6f40b88128aa7') in 0.428403 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004119 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.369 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4435 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 269.6 MB.
+System memory in use after: 269.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5268.
+Total: 3.601200 ms (FindLiveObjects: 0.462600 ms CreateObjectMapping: 0.280400 ms MarkObjects: 2.744300 ms  DeleteObjects: 0.112500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002662 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.141 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4435 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 269.6 MB.
+System memory in use after: 269.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5272.
+Total: 3.706400 ms (FindLiveObjects: 0.420700 ms CreateObjectMapping: 0.280000 ms MarkObjects: 2.889100 ms  DeleteObjects: 0.115600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 490.572050 seconds.
+  path: Assets/Shader/FireMaterial.mat
+  artifactKey: Guid(130d3e7a16d168840a5c3a9c8273e655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/FireMaterial.mat using Guid(130d3e7a16d168840a5c3a9c8273e655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77bc863136b2fa91912ac4c44ab27bb9') in 0.195582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1101.425873 seconds.
+  path: Assets/Scripts/BreakBrick.cs
+  artifactKey: Guid(93752454698a4cf49a0bec19cff138e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BreakBrick.cs using Guid(93752454698a4cf49a0bec19cff138e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6759f565b83fbca09294716c548f20ae') in 0.025978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.516868 seconds.
+  path: Assets/Scripts/Debris.cs
+  artifactKey: Guid(10378924b2fc7bb44b916f09d49d9523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Debris.cs using Guid(10378924b2fc7bb44b916f09d49d9523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743c0a16d7d07855791dc263578af2b3') in 0.002273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.541061 seconds.
+  path: Assets/Scripts/MenuController.cs
+  artifactKey: Guid(00e9d977992b9d94b894f6d1d4c5895b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MenuController.cs using Guid(00e9d977992b9d94b894f6d1d4c5895b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2504333eb37e508e2bc5eebdbc27c24') in 0.010828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.361182 seconds.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(183ccb3caebfeb14ab578cbb1ccbc706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(183ccb3caebfeb14ab578cbb1ccbc706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be71023309f1bde22d9be0fa0dd08a65') in 0.013936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.007038 seconds.
+  path: Assets/Scripts/QuestionBoxController.cs
+  artifactKey: Guid(66b03d97b50f18745825bb79b3ca7e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QuestionBoxController.cs using Guid(66b03d97b50f18745825bb79b3ca7e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2032ad1e44cb417b92177652a866644') in 0.005888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.913017 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd92c1e4e84b8aa145124b413b8b81747') in 0.010288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.341592 seconds.
+  path: Assets/Scenes/SampleScene
+  artifactKey: Guid(f2d26eb80c570074297f865fe4146a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene using Guid(f2d26eb80c570074297f865fe4146a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf1d49d565a8492d809bb59dbc928a7') in 0.010116 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002339 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.040 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4435 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 269.6 MB.
+System memory in use after: 269.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5314.
+Total: 3.333300 ms (FindLiveObjects: 0.390100 ms CreateObjectMapping: 0.209300 ms MarkObjects: 2.621600 ms  DeleteObjects: 0.110800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002969 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\Games\Lab3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.173 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4435 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 269.7 MB.
+System memory in use after: 269.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5318.
+Total: 5.685300 ms (FindLiveObjects: 1.131000 ms CreateObjectMapping: 0.295700 ms MarkObjects: 4.132700 ms  DeleteObjects: 0.124300 ms)
+
