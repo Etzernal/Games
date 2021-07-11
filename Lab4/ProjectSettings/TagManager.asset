@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Enemy
+  - Obstacles
+  - Spawned
+  - QuestionBox
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - QuestionBox
+  - Water
+  - UI
+  - Spawned
+  - Obstacles
+  - Player
+  - Ground
+  - Background
+  - PostProcessing
+  - b01
+  - b02
+  - b03
+  - b04
+  - b05
+  - b06
+  - b07
+  - b08
+  - b09
+  - b10
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Fighter
+    uniqueID: 4197228647
+    locked: 0
